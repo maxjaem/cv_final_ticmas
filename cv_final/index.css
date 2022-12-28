@@ -134,7 +134,11 @@ header a:hover {
     margin-top: 150px;
 }
 
+#contact {
 
+  color: darkslategrey;
+
+}
 
 #contactame .container {
     
@@ -143,6 +147,7 @@ header a:hover {
     height: 5px;
     border-style: ridge;
     border-radius: 7px;
+    box-shadow: 0 0 70px 10px rgba(0, 55, 77, 0.3);
     
 }
 
@@ -172,6 +177,14 @@ header a:hover {
     width: 100px;
     background-color: lightgrey;
     border-radius: 25px;
+}
+
+.warnings {
+  width: 200px;
+  text-align: center;
+  margin: auto;
+  color: purple;
+  padding-top: 20px;
 }
 
 #footer {

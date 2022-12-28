@@ -119,15 +119,17 @@
         </div>
     </section>
     <section id="contactame">
+      <h1 id="contact">Contáctame</h1>
         <div class="container">
-            <form action="" method="post">
+            <form action="" class="form" id="form"  method="post">
                 <label>Nombre</label>
-                <input type="text" class="nom" name="nombre" placeholder="ingrese su nombre" required>
+                <input type="text" class="nom" id="nom" name="nombre" placeholder="ingrese su nombre" >
                 <label>E-mail</label>
-                <input type="email" class="mail" name="email" placeholder="ingrese su e-mail" required>
+                <input type="email" class="mail" id="mail" name="email" placeholder="ingrese su e-mail" >
                 <label>Asunto</label>
-                <textarea class="txt" name="mensaje" placeholder="deje su mensaje" required></textarea>
-                <input type="submit" class="env" name="send" value="enviar">
+                <textarea class="txt" id="txt" name="mensaje" placeholder="deje su mensaje" ></textarea>
+                <input type="submit" class="env" id="env" name="send" value="enviar">
+                <p class="warnings" id="warnings"></p>
             </form>
         </div>
     </section>
@@ -136,5 +138,6 @@
     		<p>&copy;maxjaem</p>
     	</div>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
