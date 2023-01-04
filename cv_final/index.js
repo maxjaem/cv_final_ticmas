@@ -32,6 +32,5 @@ form.addEventListener("submit", e=>{
     }
     else  {
         parrafo.innerHTML = "enviado!"
-     //alert ("mensaje enviado exitosamente nos comunicaremos a la brevedad");
     }
 })

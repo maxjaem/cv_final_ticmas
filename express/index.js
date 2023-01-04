@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
 });
 });
 
-const express = require("express");
+/*const express = require("express");
 const { clear } = require("console");
 
 const app = express();
@@ -34,4 +34,4 @@ app.post("/products", (req, res) => {
 });
 
 app.listen(3000);
-console.log(`Server on port ${3000}`);
+console.log(`Server on port ${3000}`);*/
